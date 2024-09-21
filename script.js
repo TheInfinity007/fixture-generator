@@ -1,4 +1,6 @@
-const players = new Set();
+const defaultPlayers = ['player1', 'player2', 'player3', 'player4', 'player5', 'player6', 'player7', 'player8'];
+const players = new Set(defaultPlayers);
+displayPlayersList();
 
 const playerMessage = document.getElementById('players-message');
 const playerInput = document.getElementById('player-input');

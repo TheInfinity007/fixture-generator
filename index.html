@@ -20,6 +20,7 @@
                 <div class="mb-3 mt-3">
                     <input type="text" class="form-control" id="player-input" placeholder="Enter player name"
                         name="player" value="Ram">
+                    <p id="players-message" class="text-danger"></p>
                 </div>
                 <button type="button" class="btn btn-primary m-2" onclick="addPlayer()">Add</button>
             </form>
@@ -27,14 +28,11 @@
             <div>
                 <h2>Players</h2>
                 <ol class="list-group list-group-numbered list-group-horizontal borders" id="players-list"> </ol>
-                <div>
-                    <p id="players-message" class="text-danger"></p>
-                </div>
             </div>
 
             <div>
                 <button type="button" class="btn btn-primary m-2" onclick="generateFixtures()">Generate
-                    Fixtures</button>
+                    Teams</button>
             </div>
 
             <div id="fixtures">
