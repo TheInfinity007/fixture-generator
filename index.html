@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Match Fixture Generator</title>
+</head>
+
+<body>
+    <header>
+        <h1>Badminton Match Fixtures</h1>
+    </header>
+    <main>
+        <form>
+            <label for="players">Enter player names:</label>
+            <input type="text" id="players" name="players">
+            <button type="button" onclick="generateFixtures()">Generate Fixtures</button>
+        </form>
+        <div id="fixtures">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Match</th>
+                        <th>Home Team</th>
+                        <th>Away Team</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
