@@ -34,3 +34,55 @@ td {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+.versus {
+    font-size: 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#fixtures-container {
+    max-width: 800px;
+    /* margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; */
+}
+
+.round {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.round h3 {
+    background-color: #0d6efd;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.fixture {
+    background-color: #cce5ff;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.fixture img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.match-info {
+    flex: 1;
+    text-align: center;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.round td {
+    padding: 0 !important;
+}
